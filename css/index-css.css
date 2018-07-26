@@ -1,0 +1,132 @@
+/*
+File Name: index-css.css
+Created on: 18/05/2018
+Created by: Aryan Sahu
+*/
+/*--------------------------------------------------------------------
+Global-Section
+--------------------------------------------------------------------*/
+body{background-color: #565656;}
+p{margin: 0px; padding: 0px; color: white;}
+h1{color: white;}
+.row{padding-left: 0px; padding-right: 0px;}
+
+.container-inner{width: 85%; margin-left: auto; margin-right: auto; padding-top: 100px;}
+.container{box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.0), 0 6px 12px 0 rgba(0, 0, 0, 0.19); padding: 0px;}
+
+.lines{margin-bottom: 50px; margin-left: 15px; margin-right: 15px;}
+.line{border: 1px solid #464646; background-color: #464646;}
+.colored-line{border: 3px solid red; width: 50px; }
+
+.heading,h1{margin-bottom: 30px; font-weight: 700;}
+/*--------------------------------------------------------------------
+Cover-Page
+--------------------------------------------------------------------*/
+.cover-section{background-color: #272727; height: 100vh;}
+.coverImage{overflow: hidden; background: gray; height: 80%; background-image: url("images/cover1.jpg"); background-position: center; background-size: cover;}
+.quote{height: 20%; overflow: hidden;}
+.quote p{text-align: center; padding-top: 30px; padding-left: 5px; padding-right: 5px; font-size: 16px; font-weight: 600; color: #b5b5b5}
+/*--------------------------------------------------------------------
+Profile
+--------------------------------------------------------------------*/
+.profile-section{background-color: #333333;}
+.profile-image{border-radius: 6px; height: 250px; width: 250px; overflow: hidden; box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.0), 0 6px 12px 0 rgba(0, 0, 0, 0.19);}
+.profile-pic,img{height: 250px; width: 250px;}
+.objective{padding-top: 50px; padding-bottom: 50px; color: #898989; font-weight: 600; font-size: 15px;}
+#social-link{font-size: 18px; font-weight: 700; color: #b5b5b5; margin-bottom: 30px;}
+.name{font-size: 28px; font-weight: 600; color: #b5b5b5; margin-bottom: 30px;}
+.heading,.ans{display: inline-block;}
+.ans{margin-left: 40px;}
+.heading-style{color: #6F6F6F; font-weight: 600;}
+.ans-style{color: #A8A8A8;}
+.info-line{margin-top: 7px; margin-bottom: 7px;}
+.circle{transition: all 0.4s; cursor: pointer; background-repeat: no-repeat; background-position: center; height: 50px; width: 50px; display: inline-block; border: 1.5px solid #464646; background-color: #3E3E3E; border-radius: 25px;
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.0), 0 10px 12px 0 rgba(0, 0, 0, 0.19);}
+.social-line{display: inline-block; width: 20px; border: none;}
+.social-circle{padding-bottom: 90px;}
+.circle:hover{box-shadow: none; border-color: white;}
+#facebook{background-image: url("images/icons/facebook.png");}
+#twitter{background-image: url("images/icons/twitter.png");}
+#linkedin{background-image: url("images/icons/linkedin.png");}
+#github{background-image: url("images/icons/github.png");}
+/*--------------------------------------------------------------------
+Resume
+--------------------------------------------------------------------*/
+.resume-section{background-color: #272727;}
+.resume-heading-style{color: white; margin-bottom: 25px;}
+
+.interest{margin-bottom: 25px;}
+.interest-field{color: #b5b5b5; margin-bottom: 10px; font-weight: 500;}
+.scale{width: 100%; height: 12px; background-color: #171717; border-radius: 8px;}
+.scale-color-stng{height: 12px; border-radius: 8px;}
+#scale-color1{width: 75%; background-color: #aafa4b;}
+#scale-color2{width: 80%; background-color: #f98c27;}
+#scale-color3{width: 40%; background-color: red;}
+#scale-color4{width: 70%; background-color: #50a5ed;}
+#scale-color5{width: 80%; background-color: #d72a51;}
+
+.list{color: #898989; font-size: 15px;}
+.education{margin-bottom: 30px;}
+
+.current-position{margin-bottom: 30px;}
+
+#Expereince-section-style{}
+.expereince-headings{font-size: 20px; margin-bottom: 5px;}
+.expereince-details{font-size: 15px; color: #898989;}
+.expereince-subheading-left,.expereince-subheading-right{display: inline-block; margin-bottom: 10px; font-weight: 600; font-size: 16px;}
+.expereince-subheading-right{float: right;}
+
+.internship{margin-bottom: 30px;}
+.internship-list{margin-bottom: 20px;}
+
+.expereince-details ul{margin-top: 10px; margin-bottom: 80px}
+.expereince-details li{color: #898989; font-size: 15px; margin-top: 8px;}
+
+.download-btn{display: inline-block; float: right; margin-bottom: 90px;}
+.download-cv-btn{border: 1px solid #d72a51; background-color: #d72a51; transition: all 0.4s; padding: 8px 25px; color: white; border-radius: 5px;
+                box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.0), 0 10px 12px 0 rgba(0, 0, 0, 0.19); cursor: pointer;}
+.download-cv-btn:hover{box-shadow: none; color: white; background-color: #d72a80;}
+/*--------------------------------------------------------------------
+Project Section
+--------------------------------------------------------------------*/
+.project-section{background-color: #333333; padding-bottom: 90px;}
+.projects{padding: 0px; margin: 0px; padding-bottom: 30px;}
+.project-list,.p-list{border: 1px solid #b5b5b5; color: #b5b5b5; margin-bottom: 30px;}
+.p-list{padding: 6px 22px;}
+.project-list-link{transition: all 0.4s;}
+.project-list-link:hover{color: white;}
+
+.project-sample-img{width: auto; height:450px;}
+.project-details{margin-top: 50px;}
+
+.project-about{margin-bottom: 30px;}
+.project-title-style{color: white; margin-top: 30px;}
+.project-date-style{font-weight: 600; margin-bottom: 15px;}
+.project-link{color: white; font-weight: 600; margin-top: 30px; display: inline-block;}
+.project-link:hover{text-decoration: underline;}
+.project-line-style{margin-top: 15px;}
+
+.project-sample-img{background-size: contain; background-repeat: no-repeat; background-position: center;}
+
+#project-1-img{background-image: url("images/project1.png");}
+#project-2-img{background-color: gray;}
+#project-3-img{background-color: gray;}
+/*--------------------------------------------------------------------
+Contect section
+--------------------------------------------------------------------*/
+.contact-section{background-color: #272727;}
+.contact-style{padding: 0px; padding-bottom: 0px; margin-bottom: 15px;}
+
+.message-form{padding-bottom: 90px;}
+.form-style{transition: all 0.4s; width: 100%; margin-bottom: 25px; padding: 10px 20px; border-radius: 3px; border: 1px solid #464646; background-color: #333333; color: #898989;
+            box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.0), 0 10px 12px 0 rgba(0, 0, 0, 0.19);}
+.form-style#form-message-style{height: 116px;}
+.send-btn-style{transition: all 0.4s; border: 1px solid #d72a51; background-color: #d72a51; border-radius: 3px; color: white; padding: 8px 50px;
+                box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.0), 0 10px 12px 0 rgba(0, 0, 0, 0.19); cursor: pointer; font-weight: 600;}
+.form-style:hover{box-shadow: none;}
+.send-btn-style:hover{box-shadow: none; color: white; border-color: white;}
+
+.contacts-div{margin-bottom: 10px;}
+.image{height: 32px; width: 32px;}
+.contacts-div p{display: inline;}
+#contacts-div-last{margin-bottom: 50px;}
